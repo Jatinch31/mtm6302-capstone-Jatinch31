@@ -28,7 +28,7 @@ This project presents a mockup of a quiz website, designed to guide users throug
 
 ## Color Scheme and Typography
 
-- **Colors:** A clean, minimalist palette of white and light grey has been chosen for the mockup to create a professional and modern look. The neutral tones provide a smooth background for interactive elements like buttons and progress indicators.
+- **Colors:** A clean, minimalist palette of white, light grey and black has been chosen for the mockup to create a professional and modern look. The neutral tones provide a smooth background for interactive elements like buttons and progress indicators.
   
 - **Font:** The Alice font was selected for its readability and elegant appearance, ensuring that users can easily read both questions and instructions. The consistency of the font throughout the site maintains a cohesive feel.
 
