@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Welcome to the Quiz Application</h1>
+        <nav id="mainNav">
+            <a href="#homeSection" id="homeLink">Home</a>
+            <a href="#quizSection" id="quizLink">Quiz</a>
+            <a href="#contactSection" id="contactLink">Contact</a>
+            <a href="#profileSection" id="profileLink">Profile</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- Home Section -->
+    <section id="homeSection">
+        <div class="container">
+            <h2>Welcome to the Quiz Application</h2>
+            <p>Test your knowledge across various topics with our fun and educational quiz questions!</p>
+            <p>Login to begin your journey!</p>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="loginSection">
+        <div class="container">
+            <div class="login-form">
+                <h2>Log In</h2>
+                <form id="loginForm">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <button type="submit">Log In</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapter Navigation (Visible after Login) -->
+    <section id="chapterNav" style="display: none;">
+        <div class="container">
+            <h2>Select a Chapter</h2>
+            <div class="chapter-grid">
+                <button class="chapter-btn">1</button>
+                <button class="chapter-btn">2</button>
+                <button class="chapter-btn">3</button>
+                <button class="chapter-btn">4</button>
+                <button class="chapter-btn">5</button>
+                <button class="chapter-btn">6</button>
+                <button class="chapter-btn">7</button>
+                <button class="chapter-btn">8</button>
+                <button class="chapter-btn">9</button>
+                <button class="chapter-btn">10</button>
+            </div>
+            <button id="loadMore">Load More Chapters</button>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quizSection" style="display: none;">
+        <div class="container">
+            <h2 id="chapterTitle"></h2>
+            <div id="quizQuestions"></div>
+            <button id="submitQuiz" style="display:none;">Submit Quiz</button>
+            <div id="result" style="display:none;"></div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profileSection" style="display:none;">
+        <div class="container">
+            <h2>Profile Section</h2>
+            <p>Profile details will go here.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contactSection" style="display:none;">
+        <div class="container">
+            <h2>Contact Section</h2>
+            <p>If you have any questions or need support, feel free to reach out to us.</p>
+            <p>Email: support@quizapp.com</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>Privacy & Cookie Policy © 2024 quiz Inc. All rights reserved.</p>
+        <p><a href="#">Terms of Use</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
