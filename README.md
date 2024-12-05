@@ -1,3 +1,8 @@
+# Capstone Project - Web Development
+
+- **Name**: Jatin
+- **Student Number**: 041122970
+- **GitHub Username**: Jatinch31
 ### Detailed Overview of the Design and User Interface
 
 #### 1. **Site Look & Feel**
